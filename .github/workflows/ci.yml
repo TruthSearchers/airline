@@ -2,7 +2,7 @@ name: Testing
 on: push
 
 jobs:
-    test_projects:
+    test_project:
       runs-on: ubuntu-latest
       steps:
       - uses: actions/checkpoint@v2
